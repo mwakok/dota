@@ -27,3 +27,11 @@ This project is supported by the following institutions:
 * Tensorflow 2.5 or higher
 * pymedphys
 * tensorflow-addons
+
+
+It is preferred to create a Conda environment to install these dependencies:
+```
+conda install mamba -n base -c conda-forge -y
+mamba env create --file environment.yml
+conda activate dota_env
+```
